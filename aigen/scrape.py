@@ -8,7 +8,7 @@ load_dotenv()
 
 genai.configure(api_key=os.getenv("API_KEY"))
 # Define lists of websites to scrape
-# Placeholder to be replaced by prompt of choice
+# Placeholder to be replaced by prompt of choice 
 RIGHT_WING_SITES = [
     "https://www.foxnews.com/search-results/search?q=placeholder",
     "https://www.westernjournal.com/?s=placeholder",
