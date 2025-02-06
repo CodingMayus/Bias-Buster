@@ -26,7 +26,7 @@ def analyze():
     if not keyword:
         return jsonify({"error": "No keyword provided"}), 400
 
-    # Step 1: Scrape articles and generate bias summary
+    # Step 1: Scrape articles and generate bias summary using the scrape.py
     scraper = Scraper(keyword)
     bias_summary = scraper.generate_bias_summary()
 
